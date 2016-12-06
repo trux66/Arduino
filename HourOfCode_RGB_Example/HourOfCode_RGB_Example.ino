@@ -1,3 +1,11 @@
+/*
+  File: HourOfCode_RGB_Example
+  Description:
+  Reads an analog input on pin A0, scales it to 0-255 range for use in setting RGB LED to different colors; prints the result to the serial monitor.
+  Attach the center pin of a potentiometer to pin A0, and the outside pins to +5V and ground.
+  Attach RGB to pins 9,10,11 using 220 ohm resitors and the common pin to ground.
+*/
+
 // Global variables
 int redLED = 9;         // red LED connected to pin 9
 int greenLED = 10;      // green LED connected to pin 10
